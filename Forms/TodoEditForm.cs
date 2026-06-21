@@ -233,6 +233,8 @@ namespace TodoManager.Forms
                     Result.CompletedAt = null;
             }
 
+
+
             DialogResult = DialogResult.OK;
             Close();
         }
