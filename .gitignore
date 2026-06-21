@@ -1,0 +1,33 @@
+## .NET / C# gitignore
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Git
+.git/
+
+# NuGet
+*.nupkg
+**/packages/
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SQLite local DB (資料存在 AppData，不納入版控)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
